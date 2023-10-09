@@ -1,0 +1,30 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+form {
+    text-align: center;
+    
+}
+
+label, input {
+    margin-bottom: 4px;
+    display: flex;
+    width: 100%;
+    min-width: 30vh
+}
+
+#button {
+    background-color: rgb(21, 176, 21);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 4px 0;
+    font-weight: bold;
+    cursor: pointer;
+    display: block;
+}
